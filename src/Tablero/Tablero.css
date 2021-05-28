@@ -1,0 +1,12 @@
+.tablero{
+    display:grid;
+    grid-template-columns: repeat(10, 32px);
+    grid-template-rows: repeat(10, 32px);
+    justify-content: center;
+}
+
+.puntuacion{
+    font-size: 50px;
+    text-align: center;
+    color:red;
+}
